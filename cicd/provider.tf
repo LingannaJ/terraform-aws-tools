@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "shivdev-remote-state"
-    key    = "jenkins"
+    key    = "jenkins-cicd"
     region = "us-east-1"
     dynamodb_table = "mydynamoDB-lock"
   }
